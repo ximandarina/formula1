@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+body {background-image: url("../img/fondo.jpg"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; cursor: url("../img/cursor.png"), auto}
+/*cursor: url (), auto;*/
+
+.wrapper {background-color: rgba(255,255,255,0.80);width: 1000px;height: auto; margin-left: auto; margin-right: auto; text-align: center;padding: 30px; box-sizing: border-box;}
+
+.footer {background-color: black; width: 1000px; height: 50px; color: white; line-height: 50px; text-align: center; margin-left: auto; margin-right: auto; font-size: 10px} 
+
+.menu {background-color: black; width: 1000px; height: 230px; color: red; text-align: center; margin-left: auto; margin-right: auto}
+
+.menu ul {list-style-type: none;}
+
+.menu li {width: 160px; float: left;} 
+
+.section {background-color: white; width: 700px; padding: 70px; margin-top: 50px; margin-bottom: 50px; margin-left: auto; margin-right: auto}
+
+.section img {height: 300; width: auto}
+
+h1 {color: red; font-family: formula}
+@font-face {src: url("../src/Formula1-Regular.otf"); font-family:formula}
+/*font-face permite colocar fuentes de fantasía descargadas, el font-family es para asignarle nombre y después utilizarlo en la página*/
+
+.section p {text-align: justify; line-height: 20px}
+
+a {text-decoration: none; color: red}
+a:hover {color: white; cursor: url("../img/cursor.png"), auto}
+
+.home {position: fixed; right: 40px; top: 350px}
+/*posición relativa: sigue el flujo normal de la página*/
+/*posición fija: el elemento se posiciona a partir de la ventana del navegador y se queda fijo en la coordenada establecida*/
+/*posición absoluta: el elemento se posiciona a partir de la ventana del navegador en la coordenada establecida, pero se mueve al scrollear*/
+
+.intromv {font-style: italic; margin-left: 150px}
+.infomv {margin-left: 150px}
+.uno {position: absolute; left: 150px; bottom: -350px}
+/*transformaciones*/
+.uno:hover {transform: translateY(-300px); transition: ease 2s}
+/*la transición linear no tiene flexibilización, es decir, la velocidad es constante; ease-in inicia la transformación lentamente y termina a toda velocidad; ease-out inicia la transformación a toda velocidad y termina lentamente; ease-in-out empieza lento, después va rápido y luego lento; ease empieza más rápido de lo que termina. Las transformaciones de rotate y skew se manejan en grados (deg), no en px como translate*/
+.unocasco {position: absolute; right: 250px; bottom: 270px}
+
+.introsp {font-style: italic; margin-right: 150px}
+.infosp {margin-right: 150px}
+.dos {position: absolute; right: 150px; bottom: -1010px}
+.dos:hover {transform: translateX(-25px); transition: ease 2s}
+.doscasco {position: absolute; left: 250px; bottom: -520px}
+
+.introlh {font-style: italic; margin-left: 150px}
+.infolh {margin-left: 150px}
+.tres {position: absolute; left: 150px; bottom: -1730px}
+.tres:hover {transform: scale(1.15); transition: ease 2s}
+.trescasco {position: absolute; right: 250px; bottom: -1320px}
+
+.introgr {font-style: italic; margin-right: 150px}
+.infogr {margin-right: 150px}
+.cuatro {position: absolute; right: 150px; bottom: -2600px}
+.cuatro:hover {transform: rotate(10deg); transition: ease 2s}
+.cuatrocasco {position: absolute; left: 250px; bottom: -1960px}
+
+.introcl {font-style: italic; margin-left: 150px}
+.infocl {margin-left: 150px}
+.cinco {position: absolute; left: 150px; bottom: -3650px}
+.cinco:hover {transform: skewX(5deg); transition: ease 2s}
+.cincocasco {position: absolute; right: 250px; bottom: -3050px}
+
+.introcs {font-style: italic; margin-right: 150px}
+.infocs {margin-right: 150px}
+.seis {position: absolute; right: 125px; bottom: -4550px}
+.seis:hover {transform: translate(-25px,70px); transition: ease 2s}
+.seiscasco {position: absolute; left: 250px; bottom: -4050px}
+
+
+
+
+
